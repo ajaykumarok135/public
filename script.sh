@@ -3,5 +3,5 @@ if [ "$BUILD_STATUS" = "SUCCESS" ]; then
   # Add additional commands here
   touch f3
 else
-  echo "Build failed, skipping additional steps."
+  echo " failed, skipping additional steps."
 fi
